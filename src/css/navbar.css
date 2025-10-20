@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+.nav-bar {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  width: 100%;
+  margin: 0 auto;
+  max-height: 1.5%;
+  padding-top: 1.5%;
+  display: flex;
+  background-color: #1c8cac;
+  border-bottom: solid 1px #fbfbfb;
+}
+
+.nav-bar__ul {
+  display: flex;
+  gap: 30%;
+  align-items: center;
+}
+
+.nav-bar__item {
+  list-style-type: none;
+  display: flex;
+}
+
+.button-account {
+  width: 2.2rem;
+  align-self: end;
+}
+.nav-bar__item a {
+  text-decoration: none;
+  color: white;
+  transition: background-color 150ms ease;
+  align-self: flex-end;
+}
+
+/* mobile nav */
+@media screen and (max-width: 850px) {
+  .show {
+    left: 0;
+  }
+  .nav-bar__item {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 850px) {
+  .nav-bar--close {
+    display: block;
+    padding-left: 1px !important;
+  }
+}

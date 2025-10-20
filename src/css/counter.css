@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.counter-container {
+  margin: 10% 0;
+  font-family: "Funnel Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.count__header {
+  text-align: center;
+  padding-bottom: 3rem;
+  color: #472247;
+}
+
+.count__curent {
+  border: 5px solid #d3bfd9;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  margin-bottom: 2rem;
+  background-color: #8e56a6;
+  color: #f2f2f2;
+}
+.count__btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+.count__btn:hover {
+  background-color: #472247e3;
+}
+
+.count__btn {
+  height: 80px;
+  width: 80px;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  background-color: #472247;
+  color: #e1cc82;
+  text-align: center;
+  cursor: pointer;
+  border: 5px solid #e1cc82;
+}
+
+.add {
+  font-size: 2rem;
+}
+
+.subtract {
+  font-size: 2.5rem;
+}
