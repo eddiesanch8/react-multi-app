@@ -39,7 +39,7 @@ export function MovieApp() {
   }, []);
 
   return (
-    <div>
+    <div className="movie-app">
       <SearchBar
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}

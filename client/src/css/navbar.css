@@ -10,8 +10,8 @@
   max-height: 1.5%;
   padding-top: 1.5%;
   display: flex;
-  background-color: #1c8cac;
-  border-bottom: solid 1px #fbfbfb;
+  background-color: #ffffff;
+  border-bottom: solid 3px #ff9436;
 }
 
 .nav-bar__ul {
@@ -31,7 +31,7 @@
 }
 .nav-bar__item a {
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
   transition: background-color 150ms ease;
   align-self: flex-end;
 }

@@ -11,8 +11,3 @@
   flex-direction: column;
   align-items: center;
 }
-
-.movie-app {
-  background-color: rgb(255, 254, 254);
-  height: 90vh;
-}
