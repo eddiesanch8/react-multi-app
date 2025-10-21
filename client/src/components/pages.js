@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { CountApp } from "./counter";
 import { SearchBar } from "./search";
 import MovieCard from "./movies";
+import TodoList from "./task";
 
 export function Counter() {
   return (
@@ -50,7 +51,11 @@ export function MovieApp() {
 }
 
 export function TaskApp() {
-  return <main className="">My Tasks goes here</main>;
+  return (
+    <main className="">
+      <TodoList />
+    </main>
+  );
 }
 
 export function HomePage() {
