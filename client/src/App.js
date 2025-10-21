@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Navbar } from "./components/navbar";
 import { Counter, MovieApp, TaskApp, HomePage } from "./components/pages";
 import "./css/app.css";
